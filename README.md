@@ -1,2 +1,4 @@
 # artificial-intelligence
-Aufgabe Jelic - Zehetner
+Aufgabe:
+  Recherche über KI und Ausarbeitung in Form einer Website
+ 
