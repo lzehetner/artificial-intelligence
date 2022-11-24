@@ -1,0 +1,44 @@
+body {
+    background-color: #FFCC66;
+    }
+h1 {
+    color: #990000;
+    font-family:arial, verdana, sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+}
+.Contents {
+    background: orange;
+    padding-left:120px;
+
+    border-width: 20px;
+    border-style: outset;
+    border-color: red
+}
+.OperationsOfAI {
+    background: blueviolet;
+}
+.MachineLearning {
+    background: yellow;
+}
+
+a:link {
+    color: #6699cc;
+    text-decoration: none;
+}
+a:visited{
+    color: #660099;
+    text-decoration: none;
+}
+a:active{
+    background-color: #FFFF00;
+    text-decoration: none;
+}
+a:hover{
+    color: orange;
+    font-style: italic;
+    text-decoration: underline;
+}
