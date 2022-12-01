@@ -1,44 +1,94 @@
-body {
-    background-color: #FFCC66;
+#tabs {
+	float:left;
+	width:100%;
+	font-size:93%;
+	border-bottom:1px solid #0052e9;
+	line-height:normal;
+	}
+
+#tabs ul {
+	margin:0;
+	padding:10px 10px 0 50px;
+	list-style:none;
+	}
+
+#tabs li {
+	display:inline;
+	margin:0;
+	padding:0;
+	}
+
+#tabs a {
+	float:left;
+	background:url("tableft.gif") no-repeat left top;
+	margin:0;
+	padding:0 0 0 4px;
+	text-decoration:none;
+	}
+
+#tabs a span {
+	float:left;
+	display:block;
+	background:url("background.jpg") no-repeat right top;
+	padding:20px 60px 16px 24px;
+	color:#FFF;
+	}
+
+#tabs a span {float:none;}
+
+
+#tabs a:hover span {
+	color:#FFF;
+	}
+
+#tabs a:hover {
+	background-position:0% -42px;
+	}
+
+#tabs a:hover span {
+	background-position:100% -42px;
+	}
+    body {
+        background-color: #FFCC66;
+        }
+    h1 {
+        color: #990000;
+        font-family:arial, verdana, sans-serif;
+        font-style: italic;
+        font-size: 50px;
+        text-decoration: underline;
+        text-transform: uppercase;
+        text-align: center;
     }
-h1 {
-    color: #990000;
-    font-family:arial, verdana, sans-serif;
-    font-style: italic;
-    font-size: 50px;
-    text-decoration: underline;
-    text-transform: uppercase;
-    text-align: center;
-}
-.Contents {
-    background: orange;
-    padding-left:120px;
-
-    border-width: 20px;
-    border-style: outset;
-    border-color: red
-}
-.OperationsOfAI {
-    background: blueviolet;
-}
-.MachineLearning {
-    background: yellow;
-}
-
-a:link {
-    color: #6699cc;
-    text-decoration: none;
-}
-a:visited{
-    color: #660099;
-    text-decoration: none;
-}
-a:active{
-    background-color: #FFFF00;
-    text-decoration: none;
-}
-a:hover{
-    color: orange;
-    font-style: italic;
-    text-decoration: underline;
-}
+    .Contents {
+        background: orange;
+        padding-left:120px;
+    
+        border-width: 20px;
+        border-style: outset;
+        border-color: red
+    }
+    .OperationsOfAI {
+        background: blueviolet;
+    }
+    .MachineLearning {
+        background: yellow;
+    }
+    
+    a:link {
+        color: #6699cc;
+        text-decoration: none;
+    }
+    a:visited{
+        color: #660099;
+        text-decoration: none;
+    }
+    a:active{
+        background-color: #FFFF00;
+        text-decoration: none;
+    }
+    a:hover{
+        color: orange;
+        font-style: italic;
+        text-decoration: underline;
+    }
