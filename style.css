@@ -1,9 +1,21 @@
-
-.OperationsOfAI {
-    background: blueviolet;
+body {
+    background-image: url(image1.jpg);
+    background-size: 16cm;
+    background-repeat: no-repeat;
+    background-position: 95% 85%;
 }
-.MachineLearning {
-    
+#OperationsOfAI {
+    padding-right: 5cm;
+    margin-right:380pt;
+    margin-left:50pt;
+    margin-top:65pt;
+}
+
+#label:after{
+    content:'English';
+}
+#label:hover:after{
+    content:'イングリッシュ';
 }
 
 a:link {
@@ -11,7 +23,7 @@ a:link {
     text-decoration: none;
 }
 a:visited{
-    color: #660099;
+    color: #6699cc;
     text-decoration: none;
 }
 a:active{
@@ -19,7 +31,7 @@ a:active{
     text-decoration: none;
 }
 a:hover{
-    color: orange;
+    color: purple;
     font-style: italic;
     text-decoration: underline;
 }
