@@ -10,14 +10,6 @@ body {
     margin-left:50pt;
     margin-top:65pt;
 }
-
-#label:after{
-    content:'English';
-}
-#label:hover:after{
-    content:'イングリッシュ';
-}
-
 a:link {
     color: #6699cc;
     text-decoration: none;
