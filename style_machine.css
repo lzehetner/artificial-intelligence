@@ -1,12 +1,12 @@
 body {
-    background-image: url(image3.jpg);
-    background-size: 12cm;
+    background-image: url(image2.jpg);
+    background-size: 13cm;
     background-repeat: no-repeat;
-    background-position: 90% 90%;
+    background-position: 95% 50%;
 }
-#Introduction {
+#MachineLearning {
     padding-right: 5cm;
-    margin-right:380pt;
+    margin-right:340pt;
     margin-left:50pt;
     margin-top:65pt;
 }
